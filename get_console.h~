@@ -1,0 +1,10 @@
+#ifndef GET_CONSOLE_H
+#define GET_CONSOLE_H
+
+#include <sys/ioctl.h>
+#include <unistd.h>
+
+winsize get_console_details();
+int get_console_size();
+
+#endif // GET_CONSOLE_H

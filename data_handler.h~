@@ -1,7 +1,0 @@
-#ifndef DATA_HANDLER_H
-#define DATA_HANDLER_H
-
-
-struct Data showData();
-
-#endif //DATA_HANDLER_H
